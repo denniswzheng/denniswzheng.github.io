@@ -4,10 +4,10 @@
   <body>
       {% include header.html %}
       <section id="about">
-        {% include about.html %}
+        {% comment %} {% include about.html %} {% endcomment %}
       </section>
       <section id="projects">
-        {% include projects.html %}
+        {% comment %} {% include projects.html %} {% endcomment %}
       </section>
         {{ content }}
       {% include footer.html %}
